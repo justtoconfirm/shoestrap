@@ -1,10 +1,10 @@
 {
   "name": "shoestrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss/index.scss dist/css/shoestrap.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/justtoconfirm/shoestrap/issues"
   },
-  "homepage": "https://github.com/justtoconfirm/shoestrap#readme"
+  "homepage": "https://github.com/justtoconfirm/shoestrap#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
 }
