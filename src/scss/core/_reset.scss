@@ -1,3 +1,5 @@
+@use './../variables/color' as *;   // Import color variables
+
 html {
     box-sizing: border-box;
     position: relative;
@@ -19,6 +21,7 @@ html {
 body {
     font-size: 16px;    // Set the font size for legacy browsers that do not support rem units
     font-size: 1.6rem;  // Set the default base font size equal to 16px (1.6 * 10px = 16px)
+    background-color: $white;
     margin: 0;
     padding: 0;
 }
