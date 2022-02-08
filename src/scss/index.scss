@@ -1,5 +1,2 @@
-$white: #fff;
-
-.test {
-    color: $white;
-}
+// Core
+@use 'core/reset';
